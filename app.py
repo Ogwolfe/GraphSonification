@@ -71,7 +71,7 @@ def server(input, output, session):
             melody = create_melody(q)
             S = sig(melody, beat)
 
-            S.export("basic-sidebar/sonified_graph.mp3")
+            S.export("sonified_graph.mp3")
 
             return ax
     
